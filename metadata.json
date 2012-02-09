@@ -1,0 +1,8 @@
+{
+  "shell-version": ["3.2", "3.3.5"],
+  "uuid": "NewClock@obsidien.github.com",
+  "name": "New Clock",
+  "description": "Changes clock format",
+  "url": "",
+  "author": "Arnaud Bonatti, based on an Aleksander Zdyb code"
+}

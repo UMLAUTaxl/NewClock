@@ -1,5 +1,5 @@
 {
-  "shell-version": ["3.2", "3.3.5"],
+  "shell-version": ["3.2", "3.3.5", "3.4.2"],
   "uuid": "NewClock@obsidien.github.com",
   "name": "New Clock",
   "description": "Changes clock format",

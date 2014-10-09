@@ -70,21 +70,21 @@ NewClock.prototype = {
 		
 		if (clock_format == "24h") {
 			if (show_seconds) {
-				this.time_format = "%-H h %-M m %S s";
-				this.time_format_if = "%-H h %-M m %S s";
+				this.time_format = "%F %T";
+				this.time_format_if = "";
 			}else{
-				this.time_format = "%-H h %-M";
-				this.time_format_if = "%-H h";
+				this.time_format = "%F %H:%m";
+				this.time_format_if = "";
 			}
-			this.time_format += "    %A %e";
-			this.time_format_if += "    %A %e";
+			this.time_format += "";
+			this.time_format_if += "";
 		}else{	
-			this.time_format = "%a %e-%m, %l:%M";
-			this.time_format_if = "%a %e-%m, %l:%M";
-			if (show_seconds) this.time_format += "%S";
-			if (show_seconds) this.time_format_if += "%S";
-			this.time_format += " %p";
-			this.time_format_if += " %p";
+			this.time_format = "%F %H:%m";
+			this.time_format_if = "";
+			if (show_seconds) this.time_format += "%F %T";
+			if (show_seconds) this.time_format_if += "";
+			this.time_format += "";
+			this.time_format_if += "";
 		}
 	},
 	
